@@ -1,0 +1,20 @@
+@import url('http://fonts.cdnfonts.com/css/six-caps');
+
+.container {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #ced4da solid 1px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-family: Six Caps,sans-serif;
+  letter-spacing: 1px;
+  font-size: 64px;
+  color: #26bd62;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 15px;
+}

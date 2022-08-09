@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="778e98d3-3e42-49a6-951f-9f30a4bbb27a" name="Changes" comment="add database">
+      <change afterPath="$PROJECT_DIR$/../frotend/src/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frotend/src/pages/BoardAdmin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frotend/src/pages/BoardUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/CompanyInfarmation/CompanyInformation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/CompanyInfarmation/CompanyInformation.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/Container/HeaderContainer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/Container/HeaderContainer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/Register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/Register/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/pages/Admin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/pages/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/pages/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/services/auth-header.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/services/auth-header.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frotend/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frotend/src/services/user.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ca4yNQW4UzvetQKCtGjIgePudF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/JAVA C/Diplomy/Beckend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;45e515ba9219313e33a465f09dad334b&quot;
+=======
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Anna/draft/spring-boot-spring-security-jwt-authentication-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;45e515ba9219313e33a465f09dad334b&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
+    ],
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+>>>>>>> 59781394795bb1ec3475f0aad7ca38090c0f60a1
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="program.exeptions" />
+      <recent name="program.services" />
+      <recent name="program.storage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Beckend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="program.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ead9fb4-7302-46fd-97e8-8d9b0696a9cc" name="Changes" comment="" />
+      <created>1659027614940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1659027614940</updated>
+      <workItem from="1659027616444" duration="20159000" />
+      <workItem from="1659635054296" duration="26197000" />
+=======
+      <updated>1655550697870</updated>
+      <workItem from="1655550699645" duration="325000" />
+      <workItem from="1655552871124" duration="15158000" />
+      <workItem from="1655837306373" duration="98000" />
+      <workItem from="1655897069927" duration="3947000" />
+      <workItem from="1656514131878" duration="122334000" />
+      <workItem from="1657981370222" duration="23403000" />
+      <workItem from="1658113569820" duration="2802000" />
+      <workItem from="1658161868348" duration="11392000" />
+      <workItem from="1658339493189" duration="3435000" />
+      <workItem from="1658343248824" duration="6891000" />
+      <workItem from="1658521170484" duration="653000" />
+      <workItem from="1658690201100" duration="1607000" />
+      <workItem from="1658840088357" duration="752000" />
+      <workItem from="1659018219728" duration="3084000" />
+      <workItem from="1659211784685" duration="1678000" />
+      <workItem from="1659221344547" duration="924000" />
+      <workItem from="1659257273173" duration="9443000" />
+      <workItem from="1659377993625" duration="8776000" />
+      <workItem from="1659639943074" duration="830000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add dataBase">
+      <created>1655897570468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655897570468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add dataBase">
+      <created>1655898982959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655898982959</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add database">
+      <created>1656541839513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656541839513</updated>
+>>>>>>> 59781394795bb1ec3475f0aad7ca38090c0f60a1
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
