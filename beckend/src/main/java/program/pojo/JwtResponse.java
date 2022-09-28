@@ -17,14 +17,14 @@ public class JwtResponse {
 
 
     public JwtResponse(String token, Long id, String username, String name,
-                       String surname, String email, String phone, List<String> roles) {
+                       String surname, String phone, String email, List<String> roles) {
         this.token = token;
         this.id = id;
         this.username = username;
         this.name = name;
         this.surname = surname;
-        this.email = email;
         this.phone = phone;
+        this.email = email;
         this.roles = roles;
     }
 

@@ -1,7 +1,5 @@
 package program.entities;
 
-
-
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
@@ -10,7 +8,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 
 @Entity
 @Table(name="tbl_users", uniqueConstraints = {
@@ -58,7 +55,12 @@ public class UserEntity {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
-    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(
+            mappedBy = "user",
+            fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
     private List<ResponseEntity> responses=new ArrayList<>();
 
     public UserEntity() {
@@ -71,8 +73,13 @@ public class UserEntity {
         this.email = email;
         this.password = password;
     }
-
-    public UserEntity(List<ResponseEntity> responses) {
+    public UserEntity(String username, String name, String surname, String phone, String email, String password, List<ResponseEntity> responses) {
+        this.username = username;
+        this.name = name;
+        this.surname = surname;
+        this.phone = phone;
+        this.email = email;
+        this.password = password;
         this.responses = responses;
     }
 
@@ -139,5 +146,13 @@ public class UserEntity {
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
+    }
+
+    public List<ResponseEntity> getResponses() {
+        return responses;
+    }
+
+    public void setResponses(List<ResponseEntity> responses) {
+        this.responses = responses;
     }
 }

@@ -1,13 +1,16 @@
 package program.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import program.entities.ERole;
-import program.entities.ESizeEntity;
-import program.entities.Role;
+import org.springframework.stereotype.Repository;
 import program.entities.SizeEntity;
 
+import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Optional;
-
+@Repository
 public interface SizeRepository extends JpaRepository<SizeEntity, Integer> {
-    Optional<SizeEntity> findByName(ESizeEntity name);
+
+    Optional<SizeEntity> findByName( String name);
+    List<SizeEntity> findSizesByProductsId(Long productId);
+
 }

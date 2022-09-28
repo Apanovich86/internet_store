@@ -1,8 +1,17 @@
 package program.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+
 @Table(name="tbl_responses")
 public class ResponseEntity {
     @Id
@@ -12,19 +21,26 @@ public class ResponseEntity {
     @Column(name="comment",columnDefinition="text", nullable = false)
     private String comment;
 
-    @ManyToOne()
-    @JoinColumn(name="product_id", nullable = false)
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(
+            name = "product_id",
+            nullable = false
+    )
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    @JsonIgnore
     private Product product;
 
-    @ManyToOne()
-    @JoinColumn(name="user_id", nullable = false)
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(
+            name = "user_id",
+            nullable = false
+    )
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    @JsonIgnore
     private UserEntity user;
 
     @Column(nullable = false)
     private int rating;
-
-    public ResponseEntity() {
-    }
 
     public ResponseEntity(String comment, Product product, UserEntity user, int rating) {
         this.comment = comment;
@@ -71,5 +87,29 @@ public class ResponseEntity {
 
     public void setRating(int rating) {
         this.rating = rating;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ResponseEntity that = (ResponseEntity) o;
+        return rating == that.rating && Objects.equals(id, that.id) && Objects.equals(comment, that.comment) && Objects.equals(product, that.product) && Objects.equals(user, that.user);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, comment, product, user, rating);
+    }
+
+    @Override
+    public String toString() {
+        return "ResponseEntity{" +
+                "id=" + id +
+                ", comment='" + comment + '\'' +
+                ", product=" + product +
+                ", user=" + user +
+                ", rating=" + rating +
+                '}';
     }
 }

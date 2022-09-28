@@ -1,9 +1,6 @@
 package program.entities;
 
-
-
 import javax.persistence.*;
-
 
 @Entity
 @Table(name="tbl_roles")
