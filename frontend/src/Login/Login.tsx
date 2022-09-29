@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Formik, Field, Form, ErrorMessage } from "formik";
+import React, {useState} from "react";
+import {Formik, Field, Form, ErrorMessage} from "formik";
 import * as Yup from "yup";
 
-import { login } from "../services/auth.service";
-import { useNavigate } from "react-router";
+import {login} from "../services/auth.service";
+import {useNavigate} from "react-router";
 import Auth_close from "../assets/auth_close";
 import UserSvg from "../assets/user";
 import PadlockSvg from "../assets/padlock";
@@ -54,7 +54,7 @@ const Login: React.FC = () => {
     });
 
     const handleLogin = (formValue: { username: string; password: string }) => {
-        const { username, password } = formValue;
+        const {username, password} = formValue;
 
         setMessage("");
         setLoading(true);
@@ -81,7 +81,7 @@ const Login: React.FC = () => {
 
     return (
         <div className="col-md-12">
-            <div className="card_modal card-container">
+            <div className="card_modal card-container mtb105">
                 <Formik
                     initialValues={initialValues}
                     validationSchema={validationSchema}
@@ -89,16 +89,17 @@ const Login: React.FC = () => {
                 >
                     <Form>
                         <div className="form-register">
-                        <div onClick={onClose} className="btn_close">
-                            <Auth_close/>
-                        </div>
-                        <label htmlFor="username"> Увійти </label>
+                            <div onClick={onClose} className="btn_close">
+                                <Auth_close/>
+                            </div>
+                            <label htmlFor="username"> Увійти </label>
                             <div className="form-group">
                                 <div className="d-flex">
                                     <div className="icon-register">
-                                        <UserSvg />
+                                        <UserSvg/>
                                     </div>
-                                    <Field placeholder="Ім'я користувача" name="username" type="text" className="form-control" />
+                                    <Field placeholder="Ім'я користувача" name="username" type="text"
+                                           className="form-control"/>
                                 </div>
                             </div>
                             <ErrorMessage
@@ -127,19 +128,12 @@ const Login: React.FC = () => {
                             />
 
                             <div>
-                                <button type="submit" className="btn btn-primary btn-block" disabled={loading}>Увійти</button>
+                                <button type="submit" className="btn btn-primary btn-block" disabled={loading}>Увійти
+                                </button>
                                 {loading && (
                                     <span className="spinner-border spinner-border-sm"></span>
                                 )}
                             </div>
-                        {/*    <div className="form-group">*/}
-                        {/*    <button type="submit" className="btn btn-primary btn-block" disabled={loading}>*/}
-                        {/*        {loading && (*/}
-                        {/*            <span className="spinner-border spinner-border-sm"></span>*/}
-                        {/*        )}*/}
-                        {/*        <span>Login</span>*/}
-                        {/*    </button>*/}
-                        {/*</div>*/}
                         </div>
 
                         {message && (

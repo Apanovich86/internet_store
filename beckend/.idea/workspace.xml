@@ -4,7 +4,251 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50807d6-914f-4c0c-b5c7-52187e3655db" name="Changes" comment="add changes" />
+    <list default="true" id="a50807d6-914f-4c0c-b5c7-52187e3655db" name="Changes" comment="add changes">
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/AddCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/CategoriesAdm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/Category.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/CategoryAdmin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/CategoryHome.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/CategoryList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/CreateCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/EditCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/UpdateCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Category/View.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Color/ColorList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/editIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/trash.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/common/ColorSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/common/CustomSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/common/ImageInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/common/SelectGroup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/common/TextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/AddNewCategory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/AddNewColor/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/AddNewColor/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Cart/ShopingCart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Cart/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/CartButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/CategoryById/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/CategoryList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/CategoryList/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ColorById/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ColorList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Comments/AddNewComment/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Comments/CommentsListByProduct/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Comments/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/AddNewProduct/AddNewProduct.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductByColor/ProductByColor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductById/ProductById.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductDetails/ProductDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/166308106139082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/ProductList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/images/166301175918839.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/images/166308106139082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/images/166308252272617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/images/166308334287632.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductList/images/16630876917719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/ProductsByCategory/ProductsByCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/SearchProduct/SearchProduct.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MultiImagesProductsList/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/UpdateCategory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/actions/action_cart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/actions/action_categories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/actions/action_color.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/actions/action_comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/actions/action_product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/reducers/cart-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/reducers/category-reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/reducers/color-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/reducers/comment-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/reducers/product-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/hooks/useActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/hooks/useTypedSelector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/http-common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AddProduct.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/HeaderProducts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/ProductsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/category.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/color.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/file-upload.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/size.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/store/action-creators/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/store/reducers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/svgs/cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/types/type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/uploads/166308106139082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/utilities/formatCurrency.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/CompanyInfarmation/CompanyInformation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/CompanyInfarmation/CompanyInformation.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/CompanyInfarmation/CompanyInformation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/CompanyInfarmation/CompanyInformation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Container/HeaderContainer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Container/HeaderContainer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Container/HeaderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Container/HeaderContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Register/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Quantity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Quantity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/BoardAdmin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/BoardAdmin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/ProductPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/AddCategory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/CategoriesAdm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/Category.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/CategoryAdmin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/CategoryHome.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/CategoryList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/CreateCategory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/EditCategory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/List.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/UpdateCategory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Category/View.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Color/ColorList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/CompanyInfarmation/CompanyInformation.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/CompanyInfarmation/CompanyInformation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Container/HeaderContainer.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Container/HeaderContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Footer/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Header/Header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Header/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Home/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Login/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Profile/Profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/Register/Register.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/auth_close.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/editIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/info.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/mail.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/padlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/padlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/phone.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/phone1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/trash.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/assets/user.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/ColorSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/CustomSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/EventBus.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/ImageInput.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/SelectGroup.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/common/TextInput.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/AddNewCategory/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/AddNewColor/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/AddNewColor/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Cart/ShopingCart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Cart/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/CartButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/CategoryById/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/CategoryList/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/CategoryList/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/ColorById/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/ColorList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Comments/AddNewComment/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Comments/CommentsListByProduct/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Comments/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/AddNewProduct/AddNewProduct.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductByColor/ProductByColor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductById/ProductById.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductDetails/ProductDetails.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/166308106139082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/ProductList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/images/166301175918839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/images/166308106139082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/images/166308252272617.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/images/166308334287632.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductList/images/16630876917719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/ProductsByCategory/ProductsByCategory.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/SearchProduct/SearchProduct.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/MultiImagesProductsList/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/Quantity.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/UpdateCategory/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/actions/action_cart.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/actions/action_categories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/actions/action_color.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/actions/action_comments.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/actions/action_product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/reducers/cart-reducers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/reducers/category-reducers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/reducers/color-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/reducers/comment-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/components/reducers/product-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/constants/company-information.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/constants/storage-keys.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/hooks/useActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/hooks/useTypedSelector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/http-common.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/AddProduct.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/Basket.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/BoardAdmin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/BoardUser.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/HeaderProducts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/ProductPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/Products.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/pages/ProductsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/auth-header.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/category.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/color.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/file-upload.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/size.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/services/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/store/action-creators/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/store/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/store/reducers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/svgs/cart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/svgs/clock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/svgs/phone.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/types/type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/0d05cf30-e8b2-11ec-b393-89dbe0fbbb08-zhinoche-llyane-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/0d06e0a0-e8b2-11ec-b393-89dbe0fbbb08-zhinoche-llyane-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/0d1e9941-e8b0-11ec-b393-89dbe0fbbb08-kurtka-zhinocha-kofta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/0d3efd10-e8b1-11ec-b393-89dbe0fbbb08-legkij-zhinochij-svetr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/166308106139082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/4f59dc20-e8b0-11ec-b393-89dbe0fbbb08-povsyakdenne-trikotazhne-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/4f81d680-e8b0-11ec-b393-89dbe0fbbb08-povsyakdenne-trikotazhne-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/4f8c0fb0-e8b0-11ec-b393-89dbe0fbbb08-povsyakdenne-trikotazhne-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/uploads/4f9a1970-e8b0-11ec-b393-89dbe0fbbb08-povsyakdenne-trikotazhne-plattya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/src/utilities/formatCurrency.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-ts-app/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +275,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Anna/Diplom_IT_STEP/internet_store/beckend/src",
+    "last_opened_file_path": "C:/Anna/Diplom_IT_STEP/internet_store/beckend",
     "spring.configuration.checksum": "f486ba5b3e199f8aa74c13ba5527355b"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Anna\Diplom_IT_STEP\internet_store\beckend" />
+      <recent name="C:\Anna\Diplom_IT_STEP\internet_store\beckend\src\main\java" />
       <recent name="C:\Anna\Diplom_IT_STEP\internet_store\beckend\src" />
     </key>
   </component>
@@ -59,6 +305,7 @@
       <updated>1664291593506</updated>
       <workItem from="1664291595415" duration="190000" />
       <workItem from="1664356311582" duration="974000" />
+      <workItem from="1664469413323" duration="3693000" />
     </task>
     <servers />
   </component>

@@ -23,6 +23,7 @@ export const login = (username: string, password: string) => {
       //console.log("DATA_RESPONSE", response.data)
       if (response.data.token) {
         localStorage.setItem("user", JSON.stringify(response.data));
+        localStorage.setItem("username", JSON.stringify(response.data.username));
       }
 
       return response.data;

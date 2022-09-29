@@ -1,6 +1,5 @@
 import Admin from "./pages/BoardAdmin";
 import Basket from "./pages/Basket";
-import Shop from "./pages/Shop";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 import ProductPage from "./pages/ProductPage";
@@ -23,10 +22,6 @@ export const authRoutes = [
 ]
 
 export const publicRoutes = [
-    {
-        path: '/shop',
-        Component: Shop
-    },
     {
         path: '/login',
         Component: Login

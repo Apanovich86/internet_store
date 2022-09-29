@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import IUser from "../types/user.type";
+import IUser from "../types/type";
 import { register } from "../services/auth.service";
 import {PhoneSvg} from "../assets/phone";
 import UserSvg from "../assets/user";
