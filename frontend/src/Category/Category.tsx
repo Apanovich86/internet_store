@@ -77,7 +77,6 @@ const deleteCategory = () => {
                                 name="title"
                                 value={currentCategory.name}
                                 onChange={handleInputChange}
-                                // placeholder={currentCategory.name}
                             />
                         </div>
                         <p>{message}</p>

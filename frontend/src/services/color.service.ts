@@ -1,6 +1,6 @@
 import http from "../http-common";
 import {IColorModel} from '../components/AddNewColor/types';
-import {IProductModel} from "../components/MultiImagesProductsList/types";
+import {IProductModel} from "../components/Products/types";
 
 export const createColorsInProduct = (productId: any, data: IColorModel | undefined) => {
     return http.post<IColorModel>(`products/${productId}/colors`, data);

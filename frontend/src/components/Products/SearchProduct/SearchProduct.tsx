@@ -2,7 +2,7 @@ import React, {useState, ChangeEvent, Dispatch, useEffect} from 'react';
 import {BiSearch} from 'react-icons/bi';
 import {useDispatch} from "react-redux";
 import {useActions} from "../../../hooks/useActions";
-import {ProductAction, ISearchProduct} from "../../MultiImagesProductsList/types";
+import {ProductAction, ISearchProduct} from "../../Products/types";
 import {fetchProductsSearch} from "../../actions/action_product";
 import {useSearchParams} from "react-router-dom";
 import qs from "qs";

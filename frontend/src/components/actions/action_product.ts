@@ -9,7 +9,7 @@ import {
     ISearchProductByIdModel,
     FetchProductByCategoryId,
     DeleteProductAction
-} from "../MultiImagesProductsList/types";
+} from "../Products/types";
 import {Dispatch} from "react";
 import http from "../../http-common";
 import axios, {AxiosError} from "axios";

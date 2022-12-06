@@ -45,7 +45,7 @@ const CategoryList: React.FC = () => {
                                 <td>
                                     <div className="mx-5 dFlex space-even">
                                         <Link to={`/category/${item.id}`}><Info/></Link>
-                                        <div><Link to={`/category/update/${item.id}`}></Link><EditIcon/></div>
+                                        <div><Link to={`/category/update/${item.id}`}><EditIcon/></Link></div>
                                         <div onClick={() => {
                                             handleDelete(item.id);
                                         }}><Trash/></div>

@@ -3,7 +3,7 @@ import {IProduct} from "../types/type";
 import Quantity from "../components/Quantity";
 import {useNavigate} from "react-router";
 import {Card, Col} from "react-bootstrap";
-import {IProductModel} from "../components/MultiImagesProductsList/types";
+import {IProductModel} from "../components/Products/types";
 
 const ProductPage: FC<IProductModel> = ({
                                             id,

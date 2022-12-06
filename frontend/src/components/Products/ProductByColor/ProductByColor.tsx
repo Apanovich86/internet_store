@@ -1,32 +1,31 @@
 import React from 'react';
-import {useParams} from 'react-router-dom';
-import {useActions} from "../../../hooks/useActions";
-import {useTypedSelector} from "../../../hooks/useTypedSelector";
-import {useEffect, useState} from "react";
-import {ISearchItem} from '../../MultiImagesProductsList/types';
 import {Link} from 'react-router-dom';
-import {IProductModel} from "../../MultiImagesProductsList/types";
-import ProductService from "../../../services/product.service";
+import {useEffect, useState} from "react";
+import {IProductModel, ISearchItem} from "../../Products/types";
+import {useParams} from 'react-router-dom';
+import {useTypedSelector} from "../../../hooks/useTypedSelector";
+import {useActions} from "../../../hooks/useActions";
+import ColorService from "../../../services/color.service";
 
-const ProductsByCategory = () => {
+const ProductByColor = () => {
     const [products, setProducts] = useState<Array<IProductModel>>([]);
-    const [searchCategoryId, setSearchCategoryId] = useState<number>(0);
+    const [searchColorId, setSearchColorId] = useState<number>(0);
     const res = useParams();
-    const {searchedCategoryById} = useTypedSelector((store) => store.categoryinstance);
+    const {searchedColorById} = useTypedSelector((store) => store.colorinstance);
     const [ide, setIde] = useState<number>();
-    const {FetchCategoryById} = useActions();
+    const {FetchColorById} = useActions();
 
-    async function getCategories(search: ISearchItem) {
+    async function getColors(search: ISearchItem) {
         try {
-            await FetchCategoryById(search);
+            await FetchColorById(search);
         } catch (ex) {
             console.log("Error fetch in component id:", ex);
         }
     }
 
-    const getProductsByCategory = () => {
+    const getProductsByColor = () => {
         try {
-            ProductService.getProductsByCategoryId(searchedCategoryById.id)
+            ColorService.getProductsByColorId(searchedColorById.id)
                 .then((response: any) => {
                     setProducts(response.data);
                     console.log("Products from server", response.data);
@@ -42,10 +41,10 @@ const ProductsByCategory = () => {
         const search: ISearchItem = {
             id: result
         };
-        getCategories(search);
-        getProductsByCategory();
+        getColors(search);
+        getProductsByColor();
 
-    }, [searchedCategoryById.id]);
+    }, [searchedColorById.id]);
 
     return (
         <div className="row">
@@ -58,7 +57,6 @@ const ProductsByCategory = () => {
                         <div className="product-details">
                             <h4>{title}</h4>
                             <p><span className="price">{price}</span> грн</p>
-                            {/*<Quantity/>*/}
                             <button className="w65">Купити</button>
                         </div>
                     </div>
@@ -68,4 +66,4 @@ const ProductsByCategory = () => {
     );
 };
 
-export default ProductsByCategory;
+export default ProductByColor;

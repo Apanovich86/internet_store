@@ -6,29 +6,26 @@ import Login from "./Login/Login";
 import {Layout} from "./Layout";
 import Register from "./Register/Register";
 import Products from "./pages/Products";
-import ProductDetails from "./components/MultiImagesProductsList/ProductDetails/ProductDetails";
+import ProductDetails from "./components/Products/ProductDetails/ProductDetails";
 import Profile from "./Profile/Profile";
 import BoardAdmin from "./pages/BoardAdmin";
 import BoardUser from "./pages/BoardUser";
 import ProductsList from "./pages/ProductsList";
 import AddProduct from "./pages/AddProduct";
-import CategoryAdmin from "./Category/CategoryAdmin";
-import CategoriesAdm from "./Category/CategoriesAdm";
 import AddNewCategory from "./components/AddNewCategory";
 import AddNewColor from "./components/AddNewColor";
 import Category from "./Category/Category";
 import UpdateCategory from "./components/UpdateCategory";
-import CreateCategory from "./Category/CreateCategory";
 import CategoryList from "./components/CategoryList";
 import ColorList from "./components/ColorList";
 import CategorySearch from "./components/CategoryById";
 import ColorSearch from "./components/ColorById";
-import ProductList from "./components/MultiImagesProductsList/ProductList/ProductList";
-import AddNewProduct from "./components/MultiImagesProductsList/AddNewProduct/AddNewProduct";
-import ProductsByCategory from "./components/MultiImagesProductsList/ProductsByCategory/ProductsByCategory";
-import ProductById from "./components/MultiImagesProductsList/ProductById/ProductById";
+import ProductList from "./components/Products/ProductList/ProductList";
+import AddNewProduct from "./components/Products/AddNewProduct/AddNewProduct";
+import ProductsByCategory from "./components/Products/ProductsByCategory/ProductsByCategory";
+import ProductById from "./components/Products/ProductById/ProductById";
 import ShopingCart from "./components/Cart/ShopingCart";
-import ProductByColor from "./components/MultiImagesProductsList/ProductByColor/ProductByColor";
+import ProductByColor from "./components/Products/ProductByColor/ProductByColor";
 
 function App() {
 
@@ -40,7 +37,6 @@ function App() {
                         <Route path="login" element={<Login/>}/>
                         <Route path="register" element={<Register/>}/>
                         <Route path="profile" element={<Profile/>}/>
-                        {/*<Route path="products/:id" element={<ProductDetails />} />*/}
                         <Route path="admin/" element={<BoardAdmin/>}/>
 
                         {<Route
@@ -95,6 +91,14 @@ function App() {
                                 </Suspense>
                             }
                         />}
+                        {<Route
+                            path="/category/update/:id"
+                            element={
+                                <Suspense fallback={null}>
+                                    <UpdateCategory/>
+                                </Suspense>
+                            }
+                        />}
 
                         {<Route
                             path="productsByCategory/:id"
@@ -104,15 +108,6 @@ function App() {
                                 </Suspense>
                             }
                         />}
-
-                        {/*{<Route*/}
-                        {/*    path="productsByCategory/:id/viewProducts/:id"*/}
-                        {/*    element={*/}
-                        {/*        <Suspense fallback={null}>*/}
-                        {/*            <ProductDetails/>*/}
-                        {/*        </Suspense>*/}
-                        {/*    }*/}
-                        {/*/>}*/}
 
                         {<Route
                             path="productsByColor/:id"
@@ -124,7 +119,7 @@ function App() {
                         />}
 
                         {<Route path="/category/add" element={<AddNewCategory/>}/>}
-                        {<Route path="/category/update/:id" element={<UpdateCategory/>}/>}
+                        {/*{<Route path="/category/update/:id" element={<UpdateCategory/>}/>}*/}
 
 
                         {<Route
@@ -164,22 +159,11 @@ function App() {
                         />}
                         {<Route path="/color/add" element={<AddNewColor/>}/>}
 
-                        {/*{<Route path="/products/add" element={<AddNewProduct />} />}*/}
-
-
-                        {/*{<Route path="/products" element={<ProductList />} />}*/}
-
-                        {/*{<Route path="/productsAll" element={<ProductListClient />} />}*/}
-
-                        {/*<Route path="product/add" element={<AddProduct />} />*/}
-
                         <Route path="user" element={<BoardUser/>}/>
                         <Route path="products" element={<ProductsList/>}/>
                         <Route path="product/add" element={<AddProduct/>}/>
 
-                        {/*<Route path="/category/add" element={<AddNewCategory />} />*/}
-                        <Route path="/updateCategory/:id" element={<UpdateCategory/>}/>
-                        {/*<Route path="/category/update/:id" element={<AddCategory />} />*/}
+                        {/*<Route path="/updateCategory/:id" element={<UpdateCategory/>}/>*/}
                     </Route>
                 </Routes>
         </>

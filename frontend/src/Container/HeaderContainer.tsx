@@ -3,7 +3,7 @@ import styles from "./HeaderContainer.module.scss";
 import {CartSvg} from "../svgs/cart";
 import CategoryList from "../Category/CategoryList";
 import ColorList from "../Color/ColorList";
-import SearchProduct from "../components/MultiImagesProductsList/SearchProduct/SearchProduct";
+import SearchProduct from "../components/Products/SearchProduct/SearchProduct";
 import {Button, Container, Nav, Navbar as NavbarBs} from "react-bootstrap"
 import {useState} from "react";
 import {Link} from "react-router-dom";

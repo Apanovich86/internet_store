@@ -65,6 +65,7 @@ const ShopingCart = () => {
 
             <div className='text-lg border-solid border-t-2 border-red-100 pt-1 mt-5 mb70'>
                 Всього: <b>{total.toLocaleString()} грн.</b>
+                <Link className="text-decoration-none" to="/"><button className="linkPayment">Перейти до оплати</button></Link>
             </div>
             </div>
             ):(

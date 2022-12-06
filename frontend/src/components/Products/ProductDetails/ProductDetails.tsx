@@ -14,7 +14,7 @@ import HeaderContainer from "../../../Container/HeaderContainer";
 import {Button} from "react-bootstrap";
 import {useDispatch} from 'react-redux';
 import {removeFromCart} from '../../../components/actions/action_cart';
-import {IProductModel} from "../../MultiImagesProductsList/types";
+import {IProductModel} from "../../Products/types";
 import {addItem} from '../../actions/action_cart';
 import {CartItemModel} from "../../Cart/types";
 import Quantity from '../../Quantity';

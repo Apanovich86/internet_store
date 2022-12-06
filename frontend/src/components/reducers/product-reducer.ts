@@ -1,4 +1,4 @@
-import {ProductState, ProductAction, ProductsActionTypes} from "../MultiImagesProductsList/types";
+import {ProductState, ProductAction, ProductsActionTypes} from "../Products/types";
 
 const initialState: ProductState = {
     products: [],

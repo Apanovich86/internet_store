@@ -1,6 +1,6 @@
 import http from "../http-common";
 import {IProduct} from "../types/type";
-import {IProductModel} from "../components/MultiImagesProductsList/types";
+import {IProductModel} from "../components/Products/types";
 
 const getAll = () => {
     return http.get<Array<IProduct>>("/product/products");

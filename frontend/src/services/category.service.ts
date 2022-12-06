@@ -6,7 +6,7 @@ const getAll = () => {
 }
 
 const get = (id: any) => {
-    return http.get<ICategory>(`/category/${id}`);
+    return http.get<ICategory>(`/categories/${id}`);
 }
 
 const create = (data: ICategory) => {
@@ -14,7 +14,7 @@ const create = (data: ICategory) => {
 }
 
 const update = (id: any, data: ICategory) => {
-    return http.put<any>(`/category/update/${id}`);
+    return http.put<any>(`/categories/update/${id}`, data);
 }
 
 const remove = (id: any) => {

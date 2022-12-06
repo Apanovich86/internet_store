@@ -76,7 +76,7 @@ export const getCategoryById = (id: number): any => {
             dispatch({
                 type: CategoryActionTypes.GET_CATEGORY_BY_ID,
             });
-            const response = await http.get<ICategory>(`api/categories/${id}`);
+            const response = await http.get<ICategory>(`categories/${id}`);
             const {data} = response;
             dispatch({
                 type: CategoryActionTypes.GET_CATEGORY_SUCCES,
@@ -88,23 +88,39 @@ export const getCategoryById = (id: number): any => {
             console.log("Error get category:", error);
             return Promise.reject();
         }
-    }}
+    }
+}
 
 export const DeleteCategories =
-        (deleteId: number) => async (dispatch: Dispatch<DeleteCategoryAction>) => {
-            try {
-                const response = await http.delete(`/categories/delete/${deleteId}`);
-                console.log(response.status);
-                dispatch({
-                    type: CategoryActionTypes.DELETE_CATEGORY_BY_ID,
-                    payload: deleteId
-                });
+    (deleteId: number) => async (dispatch: Dispatch<DeleteCategoryAction>) => {
+        try {
+            const response = await http.delete(`/categories/delete/${deleteId}`);
+            console.log(response.status);
+            dispatch({
+                type: CategoryActionTypes.DELETE_CATEGORY_BY_ID,
+                payload: deleteId
+            });
 
-                return Promise.resolve();
+            return Promise.resolve();
 
-            } catch (error) {
-                console.log("Error delete category:", error);
-                return Promise.reject();
-            }
-
+        } catch (error) {
+            console.log("Error delete category:", error);
+            return Promise.reject();
         }
+
+    }
+
+export const UpdateCategory = (id: number, data: ICategory) => async (dispatch: Dispatch<UpdateSuccesCategoryAction>) => {
+    try {
+        const response = await http.put<ICategoryModel>(`/categories/update/${id}`, data);
+
+        dispatch({
+            type: CategoryActionTypes.UPDATE_CATEGORY_BY_ID,
+            payload: data,
+        });
+
+        return Promise.resolve(response.data);
+    } catch (error) {
+        return Promise.reject(error);
+    }
+}

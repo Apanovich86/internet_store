@@ -25,6 +25,12 @@ export const categoryReducer = (state = initialState, action: CategoryAction): C
                 status: action.payloads
             };
 
+        case CategoryActionTypes.GET_CATEGORY_BY_ID:
+            return {
+                ...state,
+             status: ''
+            };
+
         case CategoryActionTypes.FETCH_CATEGORY_BY_ID:
             return {
                 ...state,
@@ -41,10 +47,18 @@ export const categoryReducer = (state = initialState, action: CategoryAction): C
             };
 
         case CategoryActionTypes.UPDATE_CATEGORY_BY_ID:
-            
             return {
                 ...state,
-                // status: action.payload
+                category: state.category.map((item) => {
+                    if (item.id === action.payload.id) {
+                        return {
+                            ...item,
+                            ...action.payload.id,
+                        };
+                    } else {
+                        return item;
+                    }
+                })
             };
 
         default:

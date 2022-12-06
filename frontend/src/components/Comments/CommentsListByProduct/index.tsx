@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import {useActions} from "../../../hooks/useActions";
 import {Link} from 'react-router-dom';
 import {useParams} from 'react-router-dom';
-import {ISearchItem, ISearchProductByIdModel} from '../../MultiImagesProductsList/types';
+import {ISearchItem, ISearchProductByIdModel} from '../../Products/types';
 
 const CommentsList: React.FC = () => {
 
